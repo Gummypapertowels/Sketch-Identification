@@ -1,0 +1,45 @@
+body{
+    background-color: #D4AFB9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    color:rgba(0, 0, 0, 0.592);
+    background-color: #503D42;
+    color: #f0f8ff;
+
+}
+
+#show_sketch{
+    float:right;
+    width: 80px;
+    font-size: 15px;
+    height: 38px;
+    background-color: #748B75;
+    color:#f0f8ff;
+}
+
+p{
+    padding-top:10px;
+    font-size:25px;
+}
+
+canvas{
+    border:5px solid whitesmoke;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration:4s;
+    margin-top:50px;
+    animation-iteration-count:infinite;
+
+}
+
+@keyframes example{
+    from {box-shadow: 20px 20px 10px #210124;}
+    to {box-shadow: 20px 20px 10px #750D37}
+}
+
+#greenpen{
+    height: 35px;
+    width: 100px;
+}
